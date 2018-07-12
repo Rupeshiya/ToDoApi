@@ -10,6 +10,7 @@ MongoClient.connect('mongodb://localhost:27017/mydb',(err,db)=>{
   {
     return console.log('error');
   }else {
+    /////query here
     console.log('connected');
   }
   db.close();
